@@ -1,0 +1,6 @@
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\bin\Debug\MathTests.dll
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\bin\Debug\MathTests.pdb
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\obj\Debug\MathTests.csprojResolveAssemblyReference.cache
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\obj\Debug\MathTests.dll
+C:\Users\davirand\Development\MVA\testingInVS2015\02_UnitTestingBasics\MathTests\MathTests\obj\Debug\MathTests.pdb
