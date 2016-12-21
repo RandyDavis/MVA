@@ -9,17 +9,29 @@ namespace BowlingKata.Tests
         //arrange
 
         //act  
-       
+
         //assert
+        private Game g;
+
+        public BowlingKataUnitTests()
+        {
+            g = new Game();
+        }
+
+        public void rollMany(int rolls, int pins)
+        {
+            for (int i = 0; i < rolls; i++)
+            {
+                g.roll(pins);
+            }
+        }
 
         [Fact]
         public void DoesGameExist()
         {
             //arrange
-            Game g;
 
             //act
-            g = new Game();
 
             //assert
             Assert.NotNull(g);
@@ -28,17 +40,24 @@ namespace BowlingKata.Tests
         public void GutterGameReturns0()
         {
             //arrange
-            Game g = new Game();
-            int pins = 0;
 
             //act  
-            for (int i = 0; i < 20; i++)
-            {
-                g.roll(pins);
-            }
+            rollMany(20, 0);
 
             //assert
             Assert.Equal(0, g.scoreGame());
+        }
+
+        [Fact]
+        public void SinglePinGameReturns20()
+        {
+            //arrange
+
+            //act  
+            rollMany(20, 1);
+
+            //assert
+            Assert.Equal(20, g.scoreGame());
         }
     }
 }
