@@ -1,0 +1,5 @@
+C:\Users\davirand\Development\MVA\tdd\01_tddNutshell\FibonacciTests\FibonacciTests\bin\Debug\FibonacciTests.dll
+C:\Users\davirand\Development\MVA\tdd\01_tddNutshell\FibonacciTests\FibonacciTests\bin\Debug\FibonacciTests.pdb
+C:\Users\davirand\Development\MVA\tdd\01_tddNutshell\FibonacciTests\FibonacciTests\obj\Debug\FibonacciProject.csprojResolveAssemblyReference.cache
+C:\Users\davirand\Development\MVA\tdd\01_tddNutshell\FibonacciTests\FibonacciTests\obj\Debug\FibonacciTests.dll
+C:\Users\davirand\Development\MVA\tdd\01_tddNutshell\FibonacciTests\FibonacciTests\obj\Debug\FibonacciTests.pdb
