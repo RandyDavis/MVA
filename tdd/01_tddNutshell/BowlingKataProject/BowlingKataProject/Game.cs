@@ -22,9 +22,9 @@ namespace BowlingKataProject
 
             for (int frame = 0; frame < 10; frame++)
             {
-                if (rolls[frameIndex] == 10)
+                if (isStrike(frameIndex))
                 {
-                    score += rolls[frameIndex] + rolls[frameIndex + 1] + rolls[frameIndex + 2];
+                    score += 10 + strikeBonus(frameIndex);
                     frameIndex++;
                 }
                 else if (isSpare(frameIndex)) // spare
@@ -44,6 +44,16 @@ namespace BowlingKataProject
         public bool isSpare(int frameIndex)
         {
             return rolls[frameIndex] + rolls[frameIndex + 1] == 10;
+        }
+
+        public bool isStrike(int frameIndex)
+        {
+            return rolls[frameIndex] == 10;
+        }
+
+        public int strikeBonus(int frameIndex)
+        {
+            return rolls[frameIndex + 1] + rolls[frameIndex + 2];
         }
     }
 }
