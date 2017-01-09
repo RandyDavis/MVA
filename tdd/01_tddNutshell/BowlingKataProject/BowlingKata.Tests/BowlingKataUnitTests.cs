@@ -60,19 +60,19 @@ namespace BowlingKata.Tests
             Assert.Equal(20, g.scoreGame());
         }
 
-        //[Fact]
-        //public void OneSpareReturnsAppropriateValue()
-        //{
-        //    //arrange
-        //    g.roll(5);
-        //    g.roll(5); // spare
-        //    g.roll(3);
+        [Fact]
+        public void OneSpareReturnsAppropriateValue()
+        {
+            //arrange
+            g.roll(5);
+            g.roll(5); // spare
+            g.roll(3);
 
-        //    //act  
-        //    rollMany(17, 0);
+            //act  
+            rollMany(17, 0);
 
-        //    //assert
-        //    Assert.Equal(16, g.scoreGame());
-        //}
+            //assert
+            Assert.Equal(16, g.scoreGame());
+        }
     }
 }
